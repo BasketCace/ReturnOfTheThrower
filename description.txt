@@ -1,0 +1,15 @@
+where were you wen throwing class die? i was at house eating dorito when phone ring
+"throwing class is kil"
+"no"
+
+Open source GitHub repo coming soon.
+
+This mod re-implements the thrower class, converting a configurable variety of vanilla items into throwing damage.
+For issues, suggestions, or other feedback please contact me on Discord @cace#7129 or on Twitter @RQXXANNE
+
+Also, if anyone knows how to implement throwing velocity bonuses, please let me know
+
+Planned content:
+-new throwing weapons
+-throwing boosting accessories
+-a couple additional armor set(s) to fill out lategame progression
