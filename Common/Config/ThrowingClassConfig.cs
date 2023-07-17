@@ -45,11 +45,6 @@ namespace ReturnOfTheThrower.Common.Config
 		[ReloadRequired]
 		public bool ThrowingFossilArmor;
 
-		[Label("Necro Armor")]
-		[DefaultValue(false)]
-		[ReloadRequired]
-		public bool ThrowingNecroArmor;
-
 		[Label("Shinobi Infiltrator Armor")]
 		[DefaultValue(true)]
 		[ReloadRequired]
