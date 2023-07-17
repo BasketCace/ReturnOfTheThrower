@@ -24,7 +24,7 @@ namespace ReturnOfTheThrower.Common.GlobalItems.Armor
             line = tooltips.FirstOrDefault(x => x.Name == "SetBonus" && x.Mod == "Terraria");
             if (line != null)
             {
-                line.Text = "Set bonus: 20% increased movement speed" + "\n10% chance to not consume ammo";
+                line.Text = "Set bonus: 20% increased movement speed" + "\n10% chance to not consume thrown items";
             }
         }
 
