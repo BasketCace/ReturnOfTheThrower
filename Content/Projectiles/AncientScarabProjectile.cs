@@ -42,8 +42,16 @@ namespace ReturnOfTheThrower.Content.Projectiles
             float maxDetectRadius = 400f; 
             
             NPC closestNPC = ProjectileUtil.FindClosestNPC(maxDetectRadius, Projectile.Center);
-            if (closestNPC != null) Projectile.velocity = Vector2.Lerp(Projectile.velocity, (closestNPC.Center - Projectile.Center).SafeNormalize(Vector2.Zero) * Projectile.ai[0], 0.03f);
-            else Projectile.velocity = Vector2.Lerp(Projectile.velocity, Projectile.velocity.SafeNormalize(Vector2.Zero) * Projectile.ai[0], 0.03f);
+            if (closestNPC != null)
+            {
+                Projectile.velocity = Vector2.Lerp(Projectile.velocity, (closestNPC.Center - Projectile.Center).SafeNormalize(Vector2.Zero) * Projectile.ai[0], 0.03f);
+                Projectile.tileCollide = false;
+            }
+            else
+            {
+                Projectile.velocity = Vector2.Lerp(Projectile.velocity, Projectile.velocity.SafeNormalize(Vector2.Zero) * Projectile.ai[0], 0.03f);
+                Projectile.tileCollide = true;
+            }
         }
         public override void PostAI()
         {
