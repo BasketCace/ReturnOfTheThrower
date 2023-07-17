@@ -36,7 +36,8 @@ namespace ReturnOfTheThrower.Content.Projectiles
         {
 			if (Projectile.frame >= 7) Projectile.frame = 0;
 			else Projectile.frame++;
-            base.AI();
+
+			Dust.NewDust(Projectile.position, Projectile.width, Projectile.height, DustID.Sand, 0, 0, 0, default(Color), 1);
 
 			float maxDetectRadius = 300f;
 			float projSpeed = 14f;
