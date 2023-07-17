@@ -2,6 +2,7 @@
 using Terraria.DataStructures;
 using Terraria.ModLoader;
 using Terraria.ID;
+using ReturnOfTheThrower.Content.Projectiles;
 
 using Terraria.GameContent.Creative;
 
@@ -32,13 +33,13 @@ namespace ReturnOfTheThrower.Content.Items.Weapons
             Item.useAnimation = 12;
             Item.useTime = 19;
 
-            Item.damage = 14;
+            Item.damage = 24;
             Item.knockBack = 3f;
             Item.DamageType = DamageClass.Throwing;
             Item.noMelee = true;
 
             Item.shootSpeed = 10f;
-            Item.shoot = ProjectileID.StarCannonStar;
+            Item.shoot = ModContent.ProjectileType<ThrowingStarProjectile>();
         }
 
         public override void AddRecipes()
