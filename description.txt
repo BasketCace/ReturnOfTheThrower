@@ -2,12 +2,12 @@ where were you wen throwing class die? i was at house eating dorito when phone r
 "throwing class is kil"
 "no"
 
-Open source GitHub repo coming soon.
+Source Code: https://github.com/BasketCace/ReturnOfTheThrower
 
 This mod re-implements the thrower class, converting a configurable variety of vanilla items into throwing damage.
 For issues, suggestions, or other feedback please contact me on Discord @basketcace
 
 Planned content:
--Mew throwing weapons
+-New throwing weapons
 -Throwing boosting accessories
--A couple additional armor set(s) to fill out lategame progression
+-A additional armor sets to fill out lategame progression
