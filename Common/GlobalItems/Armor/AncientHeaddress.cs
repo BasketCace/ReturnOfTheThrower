@@ -33,7 +33,7 @@ namespace ReturnOfTheThrower.Common.GlobalItems.Armor
 
         public override string IsArmorSet(Item head, Item body, Item legs)
         {
-            if (head.type == ItemID.AncientArmorHat && body.type == ItemID.AncientArmorShirt && legs.type == ItemID.AncientArmorPants) return "RotT)Ancient";
+            if (head.type == ItemID.AncientArmorHat && body.type == ItemID.AncientArmorShirt && legs.type == ItemID.AncientArmorPants) return "RotT_Ancient";
             return base.IsArmorSet(head, body, legs);
         }
 
