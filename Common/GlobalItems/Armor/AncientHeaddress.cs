@@ -48,7 +48,7 @@ namespace ReturnOfTheThrower.Common.GlobalItems.Armor
                 //player.huntressAmmoCost90 = true;
                 //player.setBonus = "10% chance to not consume ammo";
                 player.GetModPlayer<AncientTornadoPlayer>().ancientArmorSet = true;
-                player.setBonus = "Throwing weapons will also launch tornados";
+                player.setBonus = "Throwing weapons will create homing tornadoes";
             }
         }
     }
