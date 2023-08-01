@@ -12,7 +12,7 @@ namespace ReturnOfTheThrower.Content.Projectiles
 
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Jarate");
+            // DisplayName.SetDefault("Jarate");
         }
 
         public override void SetDefaults()
@@ -21,16 +21,17 @@ namespace ReturnOfTheThrower.Content.Projectiles
             Projectile.DamageType = DamageClass.Throwing;
         }
 
-        public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
             target.AddBuff(BuffID.Ichor, 60 * Main.rand.Next(3, 7));
             target.AddBuff(BuffID.OnFire, 60 * Main.rand.Next(3, 5));
         }
-        public override void OnHitPvp(Player target, int damage, bool crit)
+        public override void OnHitPlayer(Player target, Player.HurtInfo info)
         {
             target.AddBuff(BuffID.Ichor, 60 * Main.rand.Next(3, 7));
             target.AddBuff(BuffID.OnFire, 60 * Main.rand.Next(3, 5));
         }
+
 
         public override void AI()
         {
@@ -109,7 +110,7 @@ namespace ReturnOfTheThrower.Content.Projectiles
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Jarate");
+            // DisplayName.SetDefault("Jarate");
         }
 
         public override void SetDefaults()
@@ -118,12 +119,12 @@ namespace ReturnOfTheThrower.Content.Projectiles
             Projectile.DamageType = DamageClass.Throwing;
             Projectile.Opacity = 0;
         }
-        public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
             target.AddBuff(BuffID.Ichor, 60 * Main.rand.Next(3, 7));
             target.AddBuff(BuffID.OnFire, 60 * Main.rand.Next(3, 5));
         }
-        public override void OnHitPvp(Player target, int damage, bool crit)
+        public override void OnHitPlayer(Player target, Player.HurtInfo info)
         {
             target.AddBuff(BuffID.Ichor, 60 * Main.rand.Next(3, 7));
             target.AddBuff(BuffID.OnFire, 60 * Main.rand.Next(3, 5));
@@ -177,7 +178,7 @@ namespace ReturnOfTheThrower.Content.Projectiles
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Jarate");
+            // DisplayName.SetDefault("Jarate");
         }
         public override void SetDefaults()
         {
@@ -185,12 +186,12 @@ namespace ReturnOfTheThrower.Content.Projectiles
             Projectile.DamageType = DamageClass.Throwing;
             Projectile.Opacity = 0;
         }
-        public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
             target.AddBuff(BuffID.Ichor, 60 * Main.rand.Next(3, 7));
             target.AddBuff(BuffID.OnFire, 60 * Main.rand.Next(3, 5));
         }
-        public override void OnHitPvp(Player target, int damage, bool crit)
+        public override void OnHitPlayer(Player target, Player.HurtInfo info)
         {
             target.AddBuff(BuffID.Ichor, 60 * Main.rand.Next(3, 7));
             target.AddBuff(BuffID.OnFire, 60 * Main.rand.Next(3, 5));
@@ -244,7 +245,7 @@ namespace ReturnOfTheThrower.Content.Projectiles
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Jarate");
+            // DisplayName.SetDefault("Jarate");
         }
         public override void SetDefaults()
         {
@@ -252,12 +253,12 @@ namespace ReturnOfTheThrower.Content.Projectiles
             Projectile.DamageType = DamageClass.Throwing;
             Projectile.Opacity = 0;
         }
-        public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
             target.AddBuff(BuffID.Ichor, 60 * Main.rand.Next(3, 7));
             target.AddBuff(BuffID.OnFire, 60 * Main.rand.Next(3, 5));
         }
-        public override void OnHitPvp(Player target, int damage, bool crit)
+        public override void OnHitPlayer(Player target, Player.HurtInfo info)
         {
             target.AddBuff(BuffID.Ichor, 60 * Main.rand.Next(3, 7));
             target.AddBuff(BuffID.OnFire, 60 * Main.rand.Next(3, 5));
