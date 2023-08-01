@@ -10,7 +10,7 @@ namespace ReturnOfTheThrower.Content.Items.Weapons
     {
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Ball of Mud");
+			// DisplayName.SetDefault("Ball of Mud");
 
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 99;
 		}

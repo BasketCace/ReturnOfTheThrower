@@ -13,7 +13,7 @@ namespace ReturnOfTheThrower.Content.Projectiles
         public override void SetStaticDefaults()
         {
             Main.projFrames[Projectile.type] = 14;
-            DisplayName.SetDefault("Throwing Star");
+            // DisplayName.SetDefault("Throwing Star");
         }
 
         public override void SetDefaults()

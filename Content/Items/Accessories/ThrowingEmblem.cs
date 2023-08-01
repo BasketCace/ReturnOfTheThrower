@@ -8,7 +8,7 @@ namespace ReturnOfTheThrower.Content.Items.Accessories
     {
 		public override void SetStaticDefaults()
 		{
-			Tooltip.SetDefault("15% increased throwing damage");
+			// Tooltip.SetDefault("15% increased throwing damage");
 
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}

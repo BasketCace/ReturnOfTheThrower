@@ -1,0 +1,118 @@
+Mods: {
+	ReturnOfTheThrower: {
+		Items: {
+			ThrowingEmblem: {
+				DisplayName: Olympian Emblem
+				Tooltip: 15% increased throwing damage
+			}
+
+			AncientScarab: {
+				DisplayName: Ancient Scarab
+				Tooltip: ""
+			}
+
+			BallScoop: {
+				DisplayName: Ball Scoop
+				Tooltip: Throws snowballs with greater force
+			}
+
+			Batarang: {
+				DisplayName: Batarang
+				Tooltip: ""
+			}
+
+			CursedCocktail: {
+				DisplayName: Cursed Cocktail
+				Tooltip: ""
+			}
+
+			Jarate: {
+				DisplayName: Jarate
+				Tooltip: ""
+			}
+
+			MudBall: {
+				DisplayName: Ball of Mud
+				Tooltip: ""
+			}
+
+			TestWeapon: {
+				DisplayName: Test Weapon
+				Tooltip: ""
+			}
+
+			ThrowingStar: {
+				DisplayName: Throwing Star
+				Tooltip: ""
+			}
+		}
+
+		Projectiles: {
+			AncientScarabProjectile.DisplayName: Ancient Scarab
+			AncientTornado.DisplayName: Ancient Tornado
+			BatarangLarge.DisplayName: Batarang
+			BatarangSmall.DisplayName: Birdarang
+			CursedCocktailFire1.DisplayName: Cursed Flame
+			CursedCocktailFire2.DisplayName: Cursed Flame
+			CursedCocktailFire3.DisplayName: Cursed Flame
+			CursedCocktailProjectile.DisplayName: Cursed Cocktail
+			JarateFire1.DisplayName: Ichor Flame
+			JarateFire2.DisplayName: Ichor Flame
+			JarateFire3.DisplayName: Ichor Flame
+			JarateProjectile.DisplayName: Jarate
+			MudBallProjectile.DisplayName: Mud Ball
+			TestProjectile.DisplayName: Test Projectile
+			ThrowingStarProjectile.DisplayName: Throwing Star
+		}
+
+		Configs: {
+			ThrowingClassConfig: {
+				DisplayName: Throwing Class Config
+
+				Headers: {
+					ReturnOfTheThrower: {
+						ConfigHeader: {
+							WeaponConversion: Weapon Damage Conversions
+							ArmorConversion: Armor Conversions
+						}
+					}
+				}
+
+				ThrowingYoyoToggle: {
+					Label: Yoyo Conversion
+					Tooltip: Whether or not yoyos will deal throwing damage
+				}
+
+				ThrowingBoomerangToggle: {
+					Label: Boomerang Conversion
+					Tooltip: Whether or not boomerang type weapons will deal throwing damage
+				}
+
+				ThrowingDungeonChestToggle: {
+					Label: Dungeon Chest Item Conversion
+					Tooltip: Whether or not Vampire Knives and Scourge of the Corruptor will deal throwing damage
+				}
+
+				ThrowingZenithToggle: {
+					Label: Zenith Conversion
+					Tooltip: Whether or not the Zenith deals throwing damage
+				}
+
+				ThrowingDaybreakToggle: {
+					Label: Daybreak Conversion
+					Tooltip: Whether or not the Daybreak deals throwing damage
+				}
+
+				ThrowingFossilArmor: {
+					Label: Fossil Armor
+					Tooltip: Whether or not Fossil Armor benefits throwing weapons
+				}
+
+				ThrowingShinobiArmor: {
+					Label: Shinobi Infiltrator Armor
+					Tooltip: Whether or not Shinobi Infiltrator Armor benefits throwing weapons
+				}
+			}
+		}
+	}
+}

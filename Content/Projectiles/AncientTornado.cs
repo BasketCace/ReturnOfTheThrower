@@ -12,7 +12,7 @@ namespace ReturnOfTheThrower.Content.Projectiles
         public override void SetStaticDefaults()
         {
             Main.projFrames[Projectile.type] = 8;
-            DisplayName.SetDefault("Sandnado");
+            // DisplayName.SetDefault("Sandnado");
         }
         public override void SetDefaults()
         {

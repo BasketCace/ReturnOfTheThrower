@@ -8,7 +8,7 @@ namespace ReturnOfTheThrower.Content.DamageClasses
     {
         public override void SetStaticDefaults()
         {
-            ClassName.SetDefault("throwing damage");
+            // DisplayName.SetDefault("throwing damage");
         }
         public override StatInheritanceData GetModifierInheritance(DamageClass damageClass)
         {

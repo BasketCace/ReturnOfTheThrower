@@ -8,7 +8,7 @@ namespace ReturnOfTheThrower.Content.Projectiles
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Batarang");
+            // DisplayName.SetDefault("Batarang");
         }
         public override void SetDefaults()
         {

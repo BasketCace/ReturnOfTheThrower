@@ -10,7 +10,7 @@ namespace ReturnOfTheThrower.Content.Projectiles
     {
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Ball of Mud");
+			// DisplayName.SetDefault("Ball of Mud");
 		}
 
 		public override void SetDefaults()

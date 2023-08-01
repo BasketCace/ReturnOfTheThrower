@@ -12,7 +12,7 @@ namespace ReturnOfTheThrower.Content.Projectiles
         public override void SetStaticDefaults()
         {
             Main.projFrames[Projectile.type] = 4;
-            DisplayName.SetDefault("Ancient Scarab"); 
+            // DisplayName.SetDefault("Ancient Scarab"); 
             ProjectileID.Sets.CultistIsResistantTo[Projectile.type] = true;
         }
         public override void SetDefaults()

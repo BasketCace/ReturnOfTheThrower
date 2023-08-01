@@ -9,7 +9,7 @@ namespace ReturnOfTheThrower.Content.Items.Weapons
     {
         public override void SetStaticDefaults()
         {
-            Tooltip.SetDefault("Throws snowballs with greater force");
+            // Tooltip.SetDefault("Throws snowballs with greater force");
 
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
